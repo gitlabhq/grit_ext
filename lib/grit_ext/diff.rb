@@ -10,6 +10,8 @@ module Grit
     end
 
     def diff
+      @diff = "" if @diff.nil?
+    
       lines = @diff.lines.to_a
 
       # path encoding is dependent on environment
