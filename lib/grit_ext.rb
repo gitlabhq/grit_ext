@@ -5,6 +5,7 @@ require "grit_ext/commit"
 require "grit_ext/tree"
 require "grit_ext/diff"
 require "grit_ext/version"
+require "grit_ext/tag"
 
 module GritExt
   extend self
